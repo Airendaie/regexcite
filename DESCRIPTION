@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Katie", "Dubarry", , "katie.dubarry@ed.ac.uk", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Created to follow along with the tutorial in R Packages (2nd edition)
+Description: Created to follow along with the tutorial in R Packages (2nd edition).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
