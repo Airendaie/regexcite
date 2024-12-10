@@ -1,13 +1,13 @@
-#' Split a string
+#'Split a string
 #'
-#' @param x A character vector with one element
-#' @param split  What to split by
+#' @param string A character vector with, at most, one element.
+#' @inheritParams stringr::str_split
 #'
-#' @return A character vector
+#' @return A character vector.
 #' @export
 #'
 #' @examples
-#'  x <- "alfa,bravo,charlie,delta"
+#' x <- "alfa,bravo,charlie,delta"
 #' str_split_one(x, pattern = ",")
 #' str_split_one(x, pattern = ",", n = 2)
 #'
